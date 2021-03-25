@@ -1,0 +1,23 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+  height: 100%;
+  padding: 0;
+  background:  linear-gradient(#FFF, #9C9CD6, #6E6E96, #3F3F57, #37374B, #252533,
+    #000)
+}
+
+.title {
+  display: grid;
+  grid-template-columns: [left] 20px [middle] auto [right] 20px;
+  grid-template-rows: auto;
+  justify-items: center;
+  align-items: center;
+  justify-content: center;
+}
+
+hr {
+  border: 2px solid;
+  color: #000;
+}
