@@ -4,8 +4,15 @@ html, body {
   max-width: 100%;
   height: 100%;
   padding: 0;
-  background:  linear-gradient(#FFF, #9C9CD6, #6E6E96, #3F3F57, #37374B, #252533,
-    #000)
+}
+
+.ssContainer {
+  position: absolute;
+  background:  linear-gradient(#FFF, #EFE4BB, #C7B4AD, #7A716E)
+}
+
+.imgContainer {
+  display: grid;
 }
 
 .title {
