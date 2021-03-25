@@ -67,6 +67,11 @@ img {
   border: 5px solid #7A716E;
 }
 
+.footer {
+  text-align: right;
+  position: static;
+}
+
 #video-background {
   position: static;
 }
