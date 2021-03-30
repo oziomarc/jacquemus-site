@@ -34,8 +34,43 @@ img {
   align-items: center;
   justify-content: center;
 }
+.subHead {
+  text-align: center;
+  margin-bottom: 6%;
+}
 
 hr {
   border: 2px solid;
   color: #000;
+}
+
+h1 {
+  font-family: 'Bebas Neue', cursive;
+  font-size: 12vmin;
+}
+
+div p {
+  font-family: 'Cormorant Unicase', serif;
+  font-size: 3vmin;
+}
+
+.images {
+  font-family: 'Nanum Myeongjo', serif;
+  font-size: 3vmin;
+}
+
+h6 + p {
+  font-family: 'Nanum Myeongjo', serif;
+  font-size: 3vmin;
+  color: white;
+}
+
+h5 + p {
+  font-family: 'Nanum Myeongjo', serif;
+  font-size: 3vmin;
+  color: white;
+}
+
+div h5 {
+  color: white;
 }
