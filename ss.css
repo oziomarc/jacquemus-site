@@ -57,7 +57,7 @@ html, body {
 .bottom {
   position: absolute;
   top: 43%;
-  left: 50%;
+  left: 40%;
   /* transform: translate(-50%, -50%); */
 }
 
