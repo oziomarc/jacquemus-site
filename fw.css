@@ -1,15 +1,29 @@
 html, body {
   margin: 0;
   padding: 0;
-  max-width: 100%;
+  width: 100%;
   height: 100%;
-  padding: 0;
 }
 
 .fwContainer {
-  position: absolute;
+  position: relative;
   background: linear-gradient(#FFF, #9C9CD6, #6E6E96, #3F3F57, #37374B, #252533,
     #000)
+}
+
+.imgContainer {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10% ;
+  justify-content: center;
+  align-content: center;
+
+}
+
+img {
+  width: 200px;
+  height: 300px;
+  object-fit: cover;
 }
 
 .title {

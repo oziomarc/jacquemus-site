@@ -29,10 +29,6 @@ html, body {
   justify-items: center;
   align-items: center;
   justify-content: center;
-  /* grid-column: middle / right;
-  grid-row: third-line / 4; */
-  /* place-self: center; */
-  /* align-items: center; */
 }
 
 hr {
@@ -49,8 +45,13 @@ hr {
 }
 
 .bioItem {
-  width: 80%;
-  /* padding-left: 5%; */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.bio {
+  margin-left: 4%;
 }
 
 .intro {
@@ -59,11 +60,10 @@ hr {
 }
 
 img {
-  display: block;
-  /* max-width:230px;
-  max-height:95px; */
-  max-width: 10%;
-  height: auto;
+  display: flex;
+  /* object-fit: fill; */
+  max-width: 300px;
+  max-height: 300px;
   border: 5px solid #7A716E;
 }
 
@@ -78,9 +78,14 @@ img {
 
 .overlay {
   display: flex;
-  position: absolute;
-  justify-content: center;
-  align-items: center;
+  flex-direction: row;
+  position: static;
+  justify-content: space-evenly;
+  align-items: flex-end;
+}
+
+.enter {
+  align-self: flex-end;
 }
 
 div > h1 {
